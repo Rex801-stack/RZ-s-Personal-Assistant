@@ -65,7 +65,7 @@ async function createCategorySelectMenu() {
     ];
 
     const embed = createEmbed({
-        title: "🤖 TitanBot Help Center",
+        title: "🤖 Nexus Network Help Center",
         description: "Your all-in-one Discord companion for moderation, economy, fun, and server management.\n\nSelect a category below to explore our powerful commands:",
         color: 'primary'
     });
@@ -191,7 +191,7 @@ export const helpBugReportButton = {
         const githubButton = new ButtonBuilder()
             .setLabel('🐛 Report Bug on GitHub')
             .setStyle(ButtonStyle.Link)
-            .setURL('https://github.com/codebymitch/TitanBot/issues');
+            .setURL('https://github.com/codebymitch/Nexus Network/issues');
 
         const bugRow = new ActionRowBuilder().addComponents(githubButton);
 
@@ -207,7 +207,7 @@ export const helpBugReportButton = {
             color: 'error'
         });
         bugReportEmbed.setFooter({
-            text: 'TitanBot Bug Reporting System',
+            text: 'Nexus Network Bug Reporting System',
             iconURL: client.user.displayAvatarURL()
         });
         bugReportEmbed.setTimestamp();
