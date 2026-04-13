@@ -157,7 +157,7 @@ async function createInitialHelpMenu() {
     );
 
     embed.setFooter({ 
-        text: "Made with ❤️" 
+        text: "RZ`s Personal Assistant is a powerful all-in-one Discord bot by RZ, designed to handle everything your server needs." 
     });
     embed.setTimestamp();
 
