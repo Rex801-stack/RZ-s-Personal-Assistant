@@ -24,7 +24,7 @@ export const botConfig = {
     // 5 = Competing
     activities: [
       {
-        // Text users will see (example: "Playing /help | Titan Bot").
+        // Text users will see (example: "Playing /help | Nexus Network").
         name: "Nexus Network",
         // Activity type number (0 = Playing).
         type: 3, 
@@ -136,7 +136,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "Nexus Network",
       // Footer icon URL (null = no icon).
       icon: null,
     },
