@@ -27,7 +27,7 @@ export const botConfig = {
         // Text users will see (example: "Playing /help | Nexus Network").
         name: "Playing /help | Nexus Network",
         // Activity type number (0 = Playing).
-        type: 3, 
+        type: 0, 
       },
     ],
   },
